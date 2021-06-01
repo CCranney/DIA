@@ -4,6 +4,9 @@ from os import path
 import csodiaq_gui as gui
 import pickle
 import numpy as np
+import os.path
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import csodiaq_identification_functions as cif
 import csodiaq_quantification_functions as cqf
 import csodiaq_mgf_cleaning_functions as cmf
